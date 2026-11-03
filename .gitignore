@@ -1,0 +1,24 @@
+# ---- OS ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# ---- Dreamweaver / 网页作业 ----
+_notes/
+*.lbi
+dwsync.xml
+*.ste
+*.mno
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---- 临时文件 ----
+*.log
+*.tmp
+*.bak
+~$*
