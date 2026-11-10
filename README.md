@@ -2,9 +2,13 @@
 
 一个纯静态的城市介绍网页：单页 8 个栏目 + 右侧固定目录，零框架、零构建、零外部依赖，双击 `index.html` 即可浏览，也可以直接部署到任意静态托管（GitHub Pages / Netlify / Vercel / 校内服务器）。
 
+## 线上地址
+
+- GitHub Pages：<https://2007xiao.github.io/Myweb/>（仓库 <https://github.com/2007xiao/Myweb>，发布源 `main` 分支根目录）
+
 ## 打开与发布
 
-- 本地：双击 `myweb/index.html`（所有图片走 `image/` 相对路径，用 `file://` 打开也能完整显示）。
+- 本地：双击仓库根目录的 `index.html`，所有图片走 `image/` 相对路径，用 `file://` 打开也能完整显示。
 - 起服务：在本目录执行 `python -m http.server 8000`，访问 `http://127.0.0.1:8000/`。
 - 发布：把整个 `myweb/` 目录上传即可，不需要改任何路径。网页不引用任何外链图片与 CDN 字体。
 
